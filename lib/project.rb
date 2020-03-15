@@ -3,7 +3,7 @@ class Project
   attr_accessor :backed_projects
   
   def initialize(name)
-    @name = name 
+    @title = title 
     @backed_projects = []
   end 
   
